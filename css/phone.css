@@ -1,0 +1,105 @@
+/* navigation 
+ */
+#navbar{
+    
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 22px;
+
+}
+#navbar::before{
+    height: 100%;
+
+}
+.logo{
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* home section  */
+#home p{
+font-size: 25px;
+}
+#home{
+    height: 600px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+
+}
+#home::before{
+  
+    height: 650px;
+    width: auto;
+}
+
+
+
+#services{
+
+    flex-direction: column;
+    
+
+}
+
+#services-container::before{
+    height:270%;
+}
+#services .box{
+
+   width: auto;
+   margin-bottom: 40px;
+   
+   
+   justify-content: center;
+    align-items: center;
+    
+    
+}
+#client{
+    overflow: hidden;
+
+}
+.h-primary{
+    /* height: 16px; */
+    font-size: 25px;
+}
+.btn , .btn1{
+    padding: 4px 8px;
+}
+#client{
+    flex-wrap: wrap;
+    
+}
+#client img{
+    padding: 0px;
+}
+#client-section{
+    height: 150px;
+    padding: 4px 0px;
+    margin: 20px 0px;
+    
+}
+#client-section::before{
+    height: 150px;
+    width: 100%;
+   
+   
+}
+
+#services{
+   
+    margin-right: 0px;
+}
+#contact-box form{
+    
+    
+    width: 80%;
+    
+  }
